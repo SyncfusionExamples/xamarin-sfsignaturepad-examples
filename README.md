@@ -2,23 +2,23 @@
 
 This section explains the steps required to configure the Signature Pad.
 
-# Adding SfSignaturePad reference
+## Adding SfSignaturePad reference
 
 You can add the Signature Pad reference using one of the following methods:
 
-## Method 1: Adding SfSignaturePad reference from nuget.org
+### Method 1: Adding SfSignaturePad reference from nuget.org
 
 Syncfusion Xamarin components are available in nuget.org. To add Signature Pad to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Xamarin.SfSignaturePad, and then install it.
 
-## Method 2: Adding SfSignaturePad reference from toolbox
+### Method 2: Adding SfSignaturePad reference from toolbox
 
 Syncfusion also provides Xamarin Toolbox. Using this toolbox, you can drag the SfSignaturePad control to the XAML page. It will automatically install the required NuGet packages and add the namespace to the page. To install Syncfusion Xamarin Toolbox, refer to this Toolbox.
 
-## Method 3: Adding SfSignaturePad assemblies manually from the installed location
+### Method 3: Adding SfSignaturePad assemblies manually from the installed location
 
 If you prefer to manually reference the assemblies instead of referencing from NuGet, add the following assemblies in respective projects.
 
-# Adding a namespace
+## Adding a namespace
 Add the following namespace.
 
 **[XAML]**
@@ -31,7 +31,7 @@ xmlns:signature="clr-namespace:Syncfusion.XForms.SignaturePad;assembly=Syncfusio
 ```
 using Syncfusion.XForms.SignaturePad;
 ```
-# Creating an SfSignaturePad control
+## Creating an SfSignaturePad control
 Create an instance for the Signature Pad control, and add it as content.
 
 **[XAML]**
@@ -47,7 +47,7 @@ Create an instance for the Signature Pad control, and add it as content.
 SfSignaturePad signature = new SfSignaturePad();
 Content = signature;
 ```
-# Getting Started with a Signature Pad control
+## Getting Started with a Signature Pad control
 
 The Signature Pad control is configured entirely in C# code or in XAML markup. The following steps explain how to create a Signature Pad and configure their elements.
 
